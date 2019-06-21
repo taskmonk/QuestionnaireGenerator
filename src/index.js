@@ -87,7 +87,13 @@ class QuestionnaireGenerator extends React.Component{
 
     validateAndProceed(){
         this.setState({openConfirmModal: true})
-        this.props.onDone(this.state.questions);
+        const { questions } = this.state;
+        if(this.props.onDone)
+            this.props.onDone(questions);
+        else{
+            console.log("Pass onDone property to QuestionnaireGenerator to get the result back.")
+            console.log("Final resule", questions);
+        }
     }
 
     closeConfirmModal(){

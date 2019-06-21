@@ -1,6 +1,6 @@
 {
   "name": "questionnaire_generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Create multiple choice questionnaire",
   "main": "dist/index.js",
   "scripts": {
@@ -38,5 +38,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/taskmonk/QuestionnaireGenerator.git"
-  }
+  },
+  "keywords": ["question", "mcq", "survay"]
 }
