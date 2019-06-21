@@ -7,14 +7,14 @@
 3. Once questions is created, that can be deleted.
 
 ----
-##Usage
+## Usage
 This component will accept `onDone` property which is a callback function. This is used to return questions to the parents component.
 
 ----
-##Install
+## Install
     npm i questionnaire_generator
 
-##Code
+## Code
 
     ...
     import QuestionnaireGenerator from 'questionnaire_generator';
