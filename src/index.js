@@ -192,7 +192,6 @@ class QuestionnaireGenerator extends React.Component{
                     <div className="QGenAction_container">                        
                         <div className="QGenAction_button">
                             <button className="QGenButton" onClick={this.validateAndProceed}>OK</button>
-                            <button className="QGenButton" onClick={this.cancelClicked}>Cancel</button>
                         </div>
                     </div>
                 </div>
